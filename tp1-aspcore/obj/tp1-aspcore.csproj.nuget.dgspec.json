@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspcore\\tp1-aspcore\\tp1-aspcore.csproj": {}
+    "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspCore-GenericRepo\\tp1-aspcore\\tp1-aspcore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspcore\\tp1-aspcore\\tp1-aspcore.csproj": {
+    "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspCore-GenericRepo\\tp1-aspcore\\tp1-aspcore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspcore\\tp1-aspcore\\tp1-aspcore.csproj",
+        "projectUniqueName": "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspCore-GenericRepo\\tp1-aspcore\\tp1-aspcore.csproj",
         "projectName": "tp1-aspcore",
-        "projectPath": "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspcore\\tp1-aspcore\\tp1-aspcore.csproj",
+        "projectPath": "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspCore-GenericRepo\\tp1-aspcore\\tp1-aspcore.csproj",
         "packagesPath": "C:\\Users\\aboussaidi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspcore\\tp1-aspcore\\obj\\",
+        "outputPath": "C:\\Users\\aboussaidi\\source\\repos\\tp1-aspCore-GenericRepo\\tp1-aspcore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [

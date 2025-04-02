@@ -24,7 +24,7 @@ namespace tp1_aspcore.Data
             : base(options)
         {
         }
-        public ApplicationDbContext() { }
+  
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
