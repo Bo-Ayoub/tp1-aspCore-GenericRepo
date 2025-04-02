@@ -1,0 +1,12 @@
+CREATE VIEW V_Teacher_Subject AS
+SELECT 
+    t.Id AS TeacherId,
+    t.HireDate,
+    t.PersonId,
+    p.FirstName AS TeacherFirstName,
+    p.LastName AS TeacherLastName,
+    s.Id AS SubjectId,
+    s.Name AS SubjectName
+FROM Teachers t
+INNER JOIN People p ON t.PersonId = p.Id
+INNER JOIN Subjects s ON t.SubjectId = s.Id;

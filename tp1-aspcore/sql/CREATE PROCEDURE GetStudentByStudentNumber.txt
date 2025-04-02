@@ -1,0 +1,14 @@
+CREATE PROCEDURE GetStudentByStudentNumber
+    @StudentNumber INT
+AS
+BEGIN
+    SELECT 
+        s.StudentNumber,
+        s.Id AS StudentId,
+        p.FirstName AS StudentFirstName,
+        p.LastName AS StudentLastName,
+        s.PersonId
+    FROM Students s
+    INNER JOIN Persons p ON s.PersonId = p.Id
+    WHERE s.StudentNumber = @StudentNumber;
+END;

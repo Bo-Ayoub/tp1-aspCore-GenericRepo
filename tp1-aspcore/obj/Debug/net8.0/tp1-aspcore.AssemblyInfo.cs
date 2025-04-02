@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tp1-aspcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd1e3d3d83a132d42b62d10a95d58677ec41f8cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+440a5e35411e45340100cf7aed441e192d30b501")]
 [assembly: System.Reflection.AssemblyProductAttribute("tp1-aspcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tp1-aspcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

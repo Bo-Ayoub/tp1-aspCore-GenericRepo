@@ -25,8 +25,9 @@ namespace tp1_aspcore
 
 
             container.Register<DbContext,ApplicationDbContext>(Lifestyle.Scoped);
+            container.Register<IStudentRepository, StudentRepository>(Lifestyle.Scoped);
 
-           
+
             container.Register(typeof(IRepository<>), typeof(Repository<>), Lifestyle.Scoped);
             container.Register(typeof(IReadOnlyRepository<>), typeof(ReadOnlyRepository<>), Lifestyle.Scoped);
 
